@@ -1,9 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:ital,wght@0,700;1,500&display=swap');
+:root {
+    --darkCyan: rgb(60, 128, 103);
+    --cream: rgb(242, 235, 227);
+    --veryDarkBlue: rgb(28, 35, 43);
+    --darkGrayishBlue: rgb(108, 114, 137);
+    --white: rgb(255, 255, 255);
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.body {
+    font-family: 'Fraunces', serif;
+    background: var(--cream);
+    font-size: 14px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
 
+/* ------------ MAIN ------------ */
+.card {
+    overflow: hidden;
+    border-radius: 10px;
+    width: 343px;
+    height: 611px;
+}
 
+.cardContainerFragrance {
+    width: 100%;
+    height: 238px;
+}
 
+.cardFragrance {
+    width: 100%;
+    display: block;
+}
+/* ------------ CONTENIDO TEXTO ------------ */
+.cardContainerText {
+    background: var(--white);
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
 
+.preTitle {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--darkGrayishBlue);
+}
+.title {
+    font-size: 29px;
+    color: var(--veryDarkBlue);
+}
+
+.text {
+    color: var(--darkGrayishBlue);
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.price {
+    font-size: 26px;
+    color: var(--darkCyan);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.prePrice {
+    font-size: 14px;
+    color: var(--darkGrayishBlue);
+    text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    height: 44px;
+    background: var(--darkCyan);
+    color: var(--white);
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button:hover {
+    opacity: .9;
+    cursor: pointer;
+}
+
+/* ---------- DESKTOP ---------- */
+
+@media screen and (min-width: 600px) {
+    /* ------------ MAIN ------------ */
+    .card {
+        width: 600px;
+        height: 450px;
+        display: flex;
+    }
+
+    .cardContainerFragrance {
+        width: 300px;
+        height: 100%;
+    }
+
+    .cardFragrance {
+        width: 300px;
+        content: url("/images/image-product-desktop.jpg");
+    }
+
+    /* ------------ CONTENIDO TEXTO ------------ */
+    .cardContainerText {
+        gap: 32px;
+    }
+}
 
 
 /* ------------------ FOOTER ------------------ */
