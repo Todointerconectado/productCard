@@ -115,12 +115,10 @@
         height: 450px;
         display: flex;
     }
-
     .cardContainerFragrance {
         width: 300px;
         height: 100%;
     }
-
     .cardFragrance {
         width: 300px;
         content: url("/images/image-product-desktop.jpg");
@@ -132,9 +130,7 @@
     }
 }
 
-
 /* ------------------ FOOTER ------------------ */
-
 .footer {
     font-size: 11px; text-align: center;
 }
