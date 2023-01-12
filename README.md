@@ -1,6 +1,15 @@
 # Frontend Mentor - Product preview card component
 
-![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Product preview card component coding challenge](./images/miniatura.jpg)
+
+## challenge completed by Francisco Carusso!! 💯
+Thanks for checking out this front-end coding challenge.
+
+Access the resolution of the challenge: [https://todointerconectado.com/productCard/](https://todointerconectado.com/productCard/)
+
+## You can also visit my linkedin:
+
+[https://www.linkedin.com/in/franciscocarusso/](https://www.linkedin.com/in/franciscocarusso/) 
 
 ## Welcome! 👋
 
