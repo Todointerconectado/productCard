@@ -121,7 +121,7 @@
     }
     .cardFragrance {
         width: 300px;
-        content: url("/images/image-product-desktop.jpg");
+        content: url("../images/image-product-desktop.jpg");
     }
 
     /* ------------ CONTENIDO TEXTO ------------ */
