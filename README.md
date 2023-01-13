@@ -1,6 +1,6 @@
 # Frontend Mentor - Product preview card component
 
-![Design preview for the Product preview card component coding challenge](./images/miniatura.jpg)
+![Design preview for the Product preview card component coding challenge](./images/miniatura.png)
 
 ## challenge completed by Francisco Carusso!! 💯
 Thanks for checking out this front-end coding challenge.
