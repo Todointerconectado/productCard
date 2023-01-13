@@ -19,7 +19,7 @@
     background: var(--cream);
     background-image: 
         linear-gradient(rgb(242, 235, 227, .97), rgb(242, 235, 227, .97)), 
-        url("../images/fondo.webp");
+        url("../images/fondo.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
