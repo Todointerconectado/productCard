@@ -1,0 +1,93 @@
+:root {
+    --atrubutionHover: rgb(47, 65, 91, .5);
+    --atrubutionWhite: rgb(255, 255, 255, .8);
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+/* ------------------ FOOTER ------------------ */
+.footer {
+    padding: 30px 0;
+    width: 100%;
+    font-size: 11px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* -------- Navegación -------- */
+.containerContacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.containerContactsRedSocial {
+    list-style: none;
+}
+
+.containerContactsRedSocial a {
+    transition: filter 300ms ease;
+}
+
+.containerContactsRedSocial a:hover {
+    filter: drop-shadow(0 0 3px var(--atrubutionWhite));
+}
+
+.arrow,
+.containerContactsImg {
+    width: 32px;
+    display: block;
+}
+
+/* -------- CODED BY Y CHALLENGE BY -------- */
+.footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.atrubution {
+    font-family: sans-serif;
+    font-size: .8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.atrubution a {
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: rgb(77, 98, 179);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    transition: background 300ms ease, color 300ms ease;
+}
+.atrubution a:hover {
+    background: var(--atrubutionHover);
+    color: var(--atrubutionWhite);
+}
+
+/* -------- UP ARROW -------- */
+.containerArrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.arrow {
+    border-radius: 50%;
+    transition: transform 1000ms ease;
+}
+
+.arrow:hover {
+    transition: scale(1.2);
+}
