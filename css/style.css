@@ -13,16 +13,20 @@
     box-sizing: border-box;
 }
 
+html {
+    width: 100%;
+    height: 100%;
+}
+
 .body {
     margin: 50px 0;
     font-family: 'Fraunces', serif;
     background: var(--cream);
     background-image: 
-        linear-gradient(rgb(242, 235, 227, .97), rgb(242, 235, 227, .97)), 
+        linear-gradient(rgb(242, 235, 227, .95), rgb(242, 235, 227, .95)), 
         url("../images/fondo.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
+    background-size: contain;
     font-size: 14px;
     width: 100%;
     height: auto;
